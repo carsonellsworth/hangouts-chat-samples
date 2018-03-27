@@ -150,7 +150,7 @@ public class BotServlet extends HttpServlet {
         }
         break;
       case "MESSAGE":
-        message = String.format("Your message, %s: %s\n",
+        message = String.format("laprdapp001\tup\nlaprdapp002\tup\n\nFailed Magnus jobs so far today: 127",
                 senderName, event.get("message").get("text").asText());
 
         // Get the thread ID and add it to the response. This allows
