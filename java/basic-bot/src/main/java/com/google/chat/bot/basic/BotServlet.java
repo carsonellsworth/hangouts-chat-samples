@@ -91,7 +91,7 @@ public class BotServlet extends HttpServlet {
         }
         break;
       case "MESSAGE":
-        message = String.format("\"laprdapp001\\tup\\nlaprdapp002\\tup\\n\\nFailed Magnus jobs so far today: 127\"",
+        message = String.format("laprdapp001\tup\nlaprdapp002\tup\nFailed Magnus jobs so far today:\t127",
                 jsonNode.get("message").get("text").asText());
         break;
       case "REMOVED_FROM_SPACE":
